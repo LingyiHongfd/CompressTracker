@@ -108,7 +108,7 @@ It is worth noting that our CompressTracker can support any structure, any resol
 
 
 ## Evaluation
-Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link) 
+Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link)(Maybe not the same as the reported performance in paper)
 
 Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/compresstracker`
 
