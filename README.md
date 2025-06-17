@@ -2,7 +2,7 @@
 The official implementation for the CompressTracker [_General Compression Framework for Efficient Transformer Object Tracking_](https://arxiv.org/abs/2409.17564v1).
 
 <!-- [[Models]()][[Raw Results]()][[Training logs]()] -->
-[[Models](https://drive.google.com/drive/folders/1qsl9KPDC6zxnjel1EFvoW_qA6lE2Pep6?usp=sharing)]
+[[Models](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link)]
 
 
 
@@ -108,7 +108,7 @@ It is worth noting that our CompressTracker can support any structure, any resol
 
 
 ## Evaluation
-Download the model weights from [Google Drive](https://drive.google.com/file/d/1DBZzSBUdRLke975Gc9A8Cmyx4vBBL6O6/view?usp=sharing) 
+Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link) 
 
 Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/compresstracker`
 
