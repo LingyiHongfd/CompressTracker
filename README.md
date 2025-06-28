@@ -1,7 +1,6 @@
-# CompressTracker
-The official implementation for the CompressTracker [_General Compression Framework for Efficient Transformer Object Tracking_](https://arxiv.org/abs/2409.17564v1).
+# [ICCV 2025] CompressTracker
+The official implementation for **ICCV 2025** CompressTracker [_General Compression Framework for Efficient Transformer Object Tracking_](https://arxiv.org/abs/2409.17564v1).
 
-<!-- [[Models]()][[Raw Results]()][[Training logs]()] -->
 [[Models](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link)]
 
 
@@ -19,10 +18,13 @@ The official implementation for the CompressTracker [_General Compression Framew
 </p>
 
 ## News
+**[Jun. 25, 2025]**
+- CompressTracker is accepted by ICCV 2025!
+
 **[Oct. 16, 2024]**
 - Code is available now!
 
-**[Oct. 28, 2022]**
+**[Sep. 28, 2022]**
 - We released our CompressTracker.
 
 
