@@ -1,9 +1,6 @@
 # [ICCV 2025] CompressTracker
 The official implementation for **ICCV 2025** CompressTracker [_General Compression Framework for Efficient Transformer Object Tracking_](https://arxiv.org/abs/2409.17564v1).
 
-[[Models](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link)]
-
-
 
 # High Efficiency
 
@@ -110,12 +107,6 @@ It is worth noting that our CompressTracker can support any structure, any resol
 
 
 ## Evaluation
-Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1hJkDXaC-2ZK0YQk0fEcGFHHXZEO1HRWa?usp=share_link)(Maybe not the same as the reported performance in paper)
-
-Put the downloaded weights on `$PROJECT_ROOT$/output/checkpoints/train/compresstracker`
-
-Change the corresponding values of `lib/test/evaluation/local.py` to the actual benchmark saving paths
-
 Some testing examples:
 - LaSOT or other off-line evaluated benchmarks (modify `--dataset` correspondingly)
 ```
@@ -147,10 +138,11 @@ python tracking/profile_model.py --script compresstracker --config compresstrack
 If our work is useful for your research, please consider citing:
 
 ```Bibtex
-@article{hong2024general,
-  title={General Compression Framework for Efficient Transformer Object Tracking},
-  author={Hong, Lingyi and Li, Jinglun and Zhou, Xinyu and Yan, Shilin and Guo, Pinxue and Jiang, Kaixun and Chen, Zhaoyu and Gao, Shuyong and Zhang, Wei and Lu, Hong and others},
-  journal={arXiv preprint arXiv:2409.17564},
-  year={2024}
+@inproceedings{hong2025general,
+  title={General compression framework for efficient transformer object tracking},
+  author={Hong, Lingyi and Li, Jinglun and Zhou, Xinyu and Yan, Shilin and Guo, Pinxue and Jiang, Kaixun and Chen, Zhaoyu and Gao, Shuyong and Li, Runze and Sheng, Xingdong and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={13427--13437},
+  year={2025}
 }
 ```
